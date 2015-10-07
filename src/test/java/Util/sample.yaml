@@ -1,0 +1,12 @@
+# YAML comments start with a "#"
+
+# Properties and values are separated by a colon.
+# There has to be at least one space between the colon and the value.
+
+
+    
+menu:
+  font: { family: Arial, color: blue, size: 14pt }
+
+  backgroundImage:
+    { image: menu.png, tile: true }

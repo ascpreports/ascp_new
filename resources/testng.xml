@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ASCP_Reports">
+
+<listeners>
+   <listener class-name ="Util.CustomListener"/> 
+</listeners>
+ 
+ <suite-files>
+   <suite-file path="./ascp-reports.xml"  />
+ </suite-files>
+  
+
+
+</suite>

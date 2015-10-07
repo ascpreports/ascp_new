@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASCP Reports Regression Suite" parallel="false">
+	<listeners>
+	   <listener class-name ="Util.CustomListener"/> 
+	</listeners>
+<test name="ASCP Reports Regression Test">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+	    <classes>
+	        <class name="report.test.Test_ypLocalAds" ></class>
+			<class name="report.test.Test_ypRealYellowPages" ></class>
+			<class name="report.test.Test_ypDisplay" ></class>
+			 <class name="report.test.Test_ypWebsite" ></class>
+			<class name="report.test.Test_ypClicks" ></class>
+			<class name="report.test.TestSendMail" ></class>
+	    </classes>
+    
+</test>
+
+
+</suite>

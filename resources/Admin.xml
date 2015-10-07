@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Admin">
+
+<test name="SSO Testing">
+    <classes>
+        <class name="Admin.SSO" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

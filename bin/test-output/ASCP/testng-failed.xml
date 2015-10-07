@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ASCP]">
+  <listeners>
+    <listener class-name="Util.CustomListener"/>
+  </listeners>
+  <test name="ASCP REPORTS(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="report.test.Test_ypWebsite">
+        <methods>
+          <include name="launchURLTestypWebsites"/>
+          <include name="initBase"/>
+          <include name="ypWebsitesBottomSectionTest"/>
+          <include name="ypWebsitesOverviewTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypWebsite -->
+      <class name="report.test.Test_ypLocalAds">
+        <methods>
+          <include name="ypLocalAdsOverviewTest"/>
+          <include name="launchURLTestypLocal"/>
+          <include name="initBase"/>
+          <include name="ypLocalAdsTopSectionTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypLocalAds -->
+      <class name="report.test.Test_ypClicks">
+        <methods>
+          <include name="initBase"/>
+          <include name="launchURLTestypClicks"/>
+          <include name="ypClicksOverviewTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypClicks -->
+      <class name="report.test.Test_ypRealYellowPages">
+        <methods>
+          <include name="initBase"/>
+        </methods>
+      </class> <!-- report.test.Test_ypRealYellowPages -->
+      <class name="report.test.Test_ypDisplay">
+        <methods>
+          <include name="ypDispalyOverviewTest"/>
+          <include name="initBase"/>
+          <include name="launchURLTestypDisplay"/>
+          <include name="ypDisplayBottomSectionTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypDisplay -->
+    </classes>
+  </test> <!-- ASCP REPORTS(failed) -->
+</suite> <!-- Failed suite [ASCP] -->

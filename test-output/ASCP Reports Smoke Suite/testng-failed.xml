@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ASCP Reports Smoke Suite]">
+  <listeners>
+    <listener class-name="Util.CustomListener"/>
+  </listeners>
+  <test name="ASCP Reports Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="report.test.Test_ypRealYellowPages">
+        <methods>
+          <include name="launchURLTestypReal"/>
+          <include name="ypRealYellowPagesOverviewTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypRealYellowPages -->
+      <class name="report.test.Test_ypLocalAds">
+        <methods>
+          <include name="ypLocalAdsOverviewTest"/>
+          <include name="launchURLTestypLocal"/>
+          <include name="initBase"/>
+        </methods>
+      </class> <!-- report.test.Test_ypLocalAds -->
+    </classes>
+  </test> <!-- ASCP Reports Smoke Test(failed) -->
+</suite> <!-- Failed suite [ASCP Reports Smoke Suite] -->

@@ -1,0 +1,38 @@
+!MyConfiguration
+applicationConfigs:
+- !ApplicationConfig
+ applicationName: myApp01
+ guestMode: Y
+ runMode: Y
+ backendProxyURLs:
+  service2: service2 value
+  service1: service1 value
+ myList:
+ - {url1: url1 value, guestmode1: guestmode1 value, runmode1: rumode1 value}
+ - {url2: url2 value, guestMode2: guestmdoe2 value, runmode2: runmode2 value} 
+- !ApplicationConfig
+ applicationName: myApp02
+ guestMode: N
+ runMode: N
+ backendProxyURLs:
+  service4: service4 value
+  service3: service3 value
+ myList:
+ - {url1: url1 value, guestmode1: guestmode1 value, runmode1: rumode1 value}
+ - {url2: url2 value, guestMode2: guestmdoe2 value, runmode2: runmode2 value}
+released: 20
+
+---
+
+!MyConfiguration
+applicationConfigs:
+- !ApplicationConfig
+ applicationName: myApp03
+ guestMode: abc
+ runMode: abc
+ backendProxyURLs:
+  service5: service5 value
+  service6: service6 value
+ myList:
+ - {url1: url1 value, guestmode1: guestmode1 value, runmode1: rumode1 value}
+ - {url2: url2 value, guestMode2: guestmdoe2 value, runmode2: runmode2 value} 

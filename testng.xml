@@ -1,0 +1,15 @@
+<suite name="WebAutoForce">
+
+<listeners>
+   <listener class-name ="Util.CustomListener"/> 
+</listeners>
+ 
+ <suite-files>
+   	<!-- <suite-file path="./SmokeSuite.xml"  />-->
+	<suite-file path="./RegressionSuite.xml"  />
+ </suite-files>
+  
+
+
+</suite>
+

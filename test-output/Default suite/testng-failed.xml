@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="report.test.Test_ypLocalAds">
+        <methods>
+          <include name="ypLocalAdsOverviewTest"/>
+          <include name="ypLocalAdsOverviewTest"/>
+          <include name="launchURLTestypLocal"/>
+          <include name="launchURLTestypLocal"/>
+          <include name="initBase"/>
+          <include name="ypLocalAdsTopSectionTest"/>
+        </methods>
+      </class> <!-- report.test.Test_ypLocalAds -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

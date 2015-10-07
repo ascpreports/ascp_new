@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite">
+              <span class="suite-name border-failed">ASCP Reports Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ASCP_Reports_Regression_Suite">
+                    <span>C:\Users\VA4652\Automation\ascp-reports\RegressionSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ASCP_Reports_Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ASCP_Reports_Regression_Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ASCP_Reports_Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ASCP_Reports_Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ASCP_Reports_Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ASCP_Reports_Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 3 failed,  3 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="hide-methods failed suite-ASCP_Reports_Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-ASCP_Reports_Regression_Suite -->
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="show-methods failed suite-ASCP_Reports_Regression_Suite"> (show)</a> <!-- show-methods failed suite-ASCP_Reports_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ASCP_Reports_Regression_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypWebsite" hash-for-method="launchURLTestypWebsites">launchURLTestypWebsites</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypDisplay" hash-for-method="ypDisplayBottomSectionTest">ypDisplayBottomSectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="ypLocalAdsOverviewTest">ypLocalAdsOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ASCP_Reports_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="hide-methods skipped suite-ASCP_Reports_Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-ASCP_Reports_Regression_Suite -->
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="show-methods skipped suite-ASCP_Reports_Regression_Suite"> (show)</a> <!-- show-methods skipped suite-ASCP_Reports_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ASCP_Reports_Regression_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="ypLocalAdsTopSectionTest">ypLocalAdsTopSectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypWebsite" hash-for-method="ypWebsitesBottomSectionTest">ypWebsitesBottomSectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypWebsite" hash-for-method="ypWebsitesOverviewTest">ypWebsitesOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ASCP_Reports_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="hide-methods passed suite-ASCP_Reports_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-ASCP_Reports_Regression_Suite -->
+                      <a href="#" panel-name="suite-ASCP_Reports_Regression_Suite" class="show-methods passed suite-ASCP_Reports_Regression_Suite"> (show)</a> <!-- show-methods passed suite-ASCP_Reports_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ASCP_Reports_Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypClicks" hash-for-method="launchURLTestypClicks">launchURLTestypClicks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypDisplay" hash-for-method="launchURLTestypDisplay">launchURLTestypDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="launchURLTestypLocal">launchURLTestypLocal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="launchURLTestypLocal">launchURLTestypLocal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypRealYellowPages" hash-for-method="launchURLTestypReal">launchURLTestypReal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypClicks" hash-for-method="ypClicksOverviewTest">ypClicksOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypDisplay" hash-for-method="ypDispalyOverviewTest">ypDispalyOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="ypLocalAdsOverviewTest">ypLocalAdsOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypLocalAds" hash-for-method="ypLocalAdsTopSectionTest">ypLocalAdsTopSectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ASCP_Reports_Regression_Suite" title="report.test.Test_ypRealYellowPages" hash-for-method="ypRealYellowPagesOverviewTest">ypRealYellowPagesOverviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ASCP_Reports_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ASCP_Reports_Regression_Suite" class="panel ASCP_Reports_Regression_Suite">
+          <div class="suite-ASCP_Reports_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">report.test.Test_ypWebsite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypWebsites">
+                  </a> <!-- launchURLTestypWebsites -->
+                  <span class="method-name">launchURLTestypWebsites</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (2):nnFailure 1 of 2:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;dvSubNav&apos;]/img&quot;}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;dvSubNav&apos;]/img}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresent(TestBase.java:123)
+	at report.pages.ypWebsites.launchURL(ypWebsites.java:91)
+	at report.test.Test_ypWebsite.launchURLTestypWebsites(Test_ypWebsite.java:80)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;dvSubNav&apos;]/img&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 2 of 2:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/h2&quot;}
+Command duration or timeout: 10.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=html/body/div[1]/h2}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.pages.ypWebsites.launchURL(ypWebsites.java:92)
+	at report.test.Test_ypWebsite.launchURLTestypWebsites(Test_ypWebsite.java:80)
+... Removed 64 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-failed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">report.test.Test_ypLocalAds</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypLocalAdsOverviewTest">
+                  </a> <!-- ypLocalAdsOverviewTest -->
+                  <span class="method-name">ypLocalAdsOverviewTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;selectedListing&apos;]/span&quot;}
+Command duration or timeout: 10.23 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;selectedListing&apos;]/span}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.pages.ypLocalAds.ypLocalAdsOverview(ypLocalAds.java:133)
+	at report.test.Test_ypLocalAds.ypLocalAdsOverviewTest(Test_ypLocalAds.java:120)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;selectedListing&apos;]/span&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-failed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">report.test.Test_ypDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypDisplayBottomSectionTest">
+                  </a> <!-- ypDisplayBottomSectionTest -->
+                  <span class="method-name">ypDisplayBottomSectionTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (15):nnFailure 1 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[4]/td/h3&quot;}
+Command duration or timeout: 10.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[4]/td/h3}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[4]/td/h3&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 2 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 3 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[2]/div/div[2]&quot;}
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[2]/div/div[2]}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[2]/div/div[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 4 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 5 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[1]/div/div[2]&quot;}
+Command duration or timeout: 10.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[1]/div/div[2]}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[1]/div/div[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 6 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 7 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]&quot;}
+Command duration or timeout: 10.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 8 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 9 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[1]/div/div[2]&quot;}
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[1]/div/div[2]}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[5]/td[1]/div/div[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 10 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 11 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]&quot;}
+Command duration or timeout: 10.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[2]/td[2]/div/div[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 12 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 13 of 15:norg.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[1]/td/h3&quot;}
+Command duration or timeout: 10.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[1]/td/h3}
+Session ID: 19162545-954f-40bb-bdb2-ee631fe1374e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at report.test.TestBase.isElementPresentWithWait(TestBase.java:136)
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ibar&apos;]/div[5]/div[3]/table/tbody/tr[1]/td/h3&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CA04WLVA4652&apos;, ip: &apos;10.65.172.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous45200382108589651webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+nnFailure 14 of 15:njava.lang.AssertionError: expected [true] but found [false]
+	at report.pages.ypDisplay.ypDisplayBottomSection(ypDisplay.java:166)
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:148)
+nnFailure 15 of 15:njava.lang.AssertionError: All Assertions are met and elements are displayed expected [11] but found [4]
+	at report.test.Test_ypDisplay.ypDisplayBottomSectionTest(Test_ypDisplay.java:150)
+... Removed 480 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-failed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">report.test.Test_ypWebsite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypWebsitesBottomSectionTest">
+                  </a> <!-- ypWebsitesBottomSectionTest -->
+                  <span class="method-name">ypWebsitesBottomSectionTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Test_ypWebsite.ypWebsitesBottomSectionTest()[pri:0, instance:report.test.Test_ypWebsite@193ff426] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypWebsitesOverviewTest">
+                  </a> <!-- ypWebsitesOverviewTest -->
+                  <span class="method-name">ypWebsitesOverviewTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Test_ypWebsite.ypWebsitesOverviewTest()[pri:0, instance:report.test.Test_ypWebsite@193ff426] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-skipped -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">report.test.Test_ypLocalAds</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypLocalAdsTopSectionTest">
+                  </a> <!-- ypLocalAdsTopSectionTest -->
+                  <span class="method-name">ypLocalAdsTopSectionTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Test_ypLocalAds.ypLocalAdsTopSectionTest()[pri:0, instance:report.test.Test_ypLocalAds@4437601e] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-skipped -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">report.test.Test_ypLocalAds</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypLocal">
+                  </a> <!-- launchURLTestypLocal -->
+                  <span class="method-name">launchURLTestypLocal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypLocal">
+                  </a> <!-- launchURLTestypLocal -->
+                  <span class="method-name">launchURLTestypLocal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypLocalAdsOverviewTest">
+                  </a> <!-- ypLocalAdsOverviewTest -->
+                  <span class="method-name">ypLocalAdsOverviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypLocalAdsTopSectionTest">
+                  </a> <!-- ypLocalAdsTopSectionTest -->
+                  <span class="method-name">ypLocalAdsTopSectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-passed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">report.test.Test_ypDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypDisplay">
+                  </a> <!-- launchURLTestypDisplay -->
+                  <span class="method-name">launchURLTestypDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypDispalyOverviewTest">
+                  </a> <!-- ypDispalyOverviewTest -->
+                  <span class="method-name">ypDispalyOverviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-passed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">report.test.Test_ypClicks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypClicks">
+                  </a> <!-- launchURLTestypClicks -->
+                  <span class="method-name">launchURLTestypClicks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypClicksOverviewTest">
+                  </a> <!-- ypClicksOverviewTest -->
+                  <span class="method-name">ypClicksOverviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-passed -->
+          <div class="suite-ASCP_Reports_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">report.test.Test_ypRealYellowPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURLTestypReal">
+                  </a> <!-- launchURLTestypReal -->
+                  <span class="method-name">launchURLTestypReal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ypRealYellowPagesOverviewTest">
+                  </a> <!-- ypRealYellowPagesOverviewTest -->
+                  <span class="method-name">ypRealYellowPagesOverviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ASCP_Reports_Regression_Suite-class-passed -->
+        </div> <!-- panel ASCP_Reports_Regression_Suite -->
+        <div panel-name="suite-WebAutoForce" class="panel WebAutoForce">
+        </div> <!-- panel WebAutoForce -->
+        <div panel-name="test-xml-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\VA4652\Automation\ascp-reports\RegressionSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;ASCP Reports Regression Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Util.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;ASCP Reports Regression Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;report.test.Test_ypLocalAds&quot;/&gt;
+      &lt;class name=&quot;report.test.Test_ypRealYellowPages&quot;/&gt;
+      &lt;class name=&quot;report.test.Test_ypDisplay&quot;/&gt;
+      &lt;class name=&quot;report.test.Test_ypWebsite&quot;/&gt;
+      &lt;class name=&quot;report.test.Test_ypClicks&quot;/&gt;
+      &lt;class name=&quot;report.test.TestSendMail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ASCP Reports Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- ASCP Reports Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\VA4652\Automation\ascp-reports\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;WebAutoForce&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Util.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./RegressionSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- WebAutoForce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ASCP Reports Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ASCP Reports Regression Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebAutoForce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ASCP Reports Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypClicks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypDisplay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypLocal</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypReal</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypWebsites</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypClicksOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypDispalyOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypDisplayBottomSectionTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypLocalAdsOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypLocalAdsTopSectionTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypRealYellowPagesOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypWebsitesBottomSectionTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypWebsitesOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypClicks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypDisplay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypLocal</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypReal</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchURLTestypWebsites</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypClicksOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypDispalyOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypLocalAdsOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypRealYellowPagesOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ypWebsitesOverviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebAutoForce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ASCP Reports Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ASCP_Reports_Regression_Suite');
+function tableData_ASCP_Reports_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchURLTestypLocal')
+data.setCell(0, 2, 'report.test.Test_ypLocalAds')
+data.setCell(0, 3, 125401);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchURLTestypReal')
+data.setCell(1, 2, 'report.test.Test_ypRealYellowPages')
+data.setCell(1, 3, 77249);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ypDisplayBottomSectionTest')
+data.setCell(2, 2, 'report.test.Test_ypDisplay')
+data.setCell(2, 3, 71832);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchURLTestypLocal')
+data.setCell(3, 2, 'report.test.Test_ypLocalAds')
+data.setCell(3, 3, 71734);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchURLTestypWebsites')
+data.setCell(4, 2, 'report.test.Test_ypWebsite')
+data.setCell(4, 3, 52284);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'launchURLTestypClicks')
+data.setCell(5, 2, 'report.test.Test_ypClicks')
+data.setCell(5, 3, 33306);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'launchURLTestypDisplay')
+data.setCell(6, 2, 'report.test.Test_ypDisplay')
+data.setCell(6, 3, 25425);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ypDispalyOverviewTest')
+data.setCell(7, 2, 'report.test.Test_ypDisplay')
+data.setCell(7, 3, 14242);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ypLocalAdsOverviewTest')
+data.setCell(8, 2, 'report.test.Test_ypLocalAds')
+data.setCell(8, 3, 10648);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ypClicksOverviewTest')
+data.setCell(9, 2, 'report.test.Test_ypClicks')
+data.setCell(9, 3, 7165);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ypLocalAdsOverviewTest')
+data.setCell(10, 2, 'report.test.Test_ypLocalAds')
+data.setCell(10, 3, 5393);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ypRealYellowPagesOverviewTest')
+data.setCell(11, 2, 'report.test.Test_ypRealYellowPages')
+data.setCell(11, 3, 4437);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ypLocalAdsTopSectionTest')
+data.setCell(12, 2, 'report.test.Test_ypLocalAds')
+data.setCell(12, 3, 937);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ypLocalAdsTopSectionTest')
+data.setCell(13, 2, 'report.test.Test_ypLocalAds')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ypWebsitesBottomSectionTest')
+data.setCell(14, 2, 'report.test.Test_ypWebsite')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ypWebsitesOverviewTest')
+data.setCell(15, 2, 'report.test.Test_ypWebsite')
+data.setCell(15, 3, 0);
+window.suiteTableData['ASCP_Reports_Regression_Suite']= { tableData: data, tableDiv: 'times-div-ASCP_Reports_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-ASCP_Reports_Regression_Suite">
+              </div> <!-- times-div-ASCP_Reports_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebAutoForce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebAutoForce');
+function tableData_WebAutoForce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['WebAutoForce']= { tableData: data, tableDiv: 'times-div-WebAutoForce'}
+return data;
+}
+              </script>
+              <div id="times-div-WebAutoForce">
+              </div> <!-- times-div-WebAutoForce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ASCP Reports Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebAutoForce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ASCP_Reports_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypClicks</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypLocalAds</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypRealYellowPages</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypWebsite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypLocalAds</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypLocal</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypLocal</span>
+                <span class="method-start">130510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ypLocalAdsOverviewTest</span>
+                <span class="method-start">202244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypLocalAdsOverviewTest</span>
+                <span class="method-start">212922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypLocalAdsTopSectionTest</span>
+                <span class="method-start">218315 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypRealYellowPages</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypReal</span>
+                <span class="method-start">219252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypRealYellowPagesOverviewTest</span>
+                <span class="method-start">296501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypDisplay</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypDisplay</span>
+                <span class="method-start">300938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypDispalyOverviewTest</span>
+                <span class="method-start">326363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ypDisplayBottomSectionTest</span>
+                <span class="method-start">340605 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypWebsite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchURLTestypWebsites</span>
+                <span class="method-start">412447 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypClicks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">464741 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypClicks</span>
+                <span class="method-start">464741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypClicksOverviewTest</span>
+                <span class="method-start">498047 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.TestSendMail</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">sendMail</span>
+                <span class="method-start">505322 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebAutoForce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypClicks</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypLocalAds</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypRealYellowPages</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypWebsite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypLocalAds</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypLocal</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypLocal</span>
+                <span class="method-start">130510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ypLocalAdsOverviewTest</span>
+                <span class="method-start">202244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypLocalAdsOverviewTest</span>
+                <span class="method-start">212922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypLocalAdsTopSectionTest</span>
+                <span class="method-start">218315 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypRealYellowPages</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypReal</span>
+                <span class="method-start">219252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypRealYellowPagesOverviewTest</span>
+                <span class="method-start">296501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypDisplay</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypDisplay</span>
+                <span class="method-start">300938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypDispalyOverviewTest</span>
+                <span class="method-start">326363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ypDisplayBottomSectionTest</span>
+                <span class="method-start">340605 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypWebsite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchURLTestypWebsites</span>
+                <span class="method-start">412447 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.Test_ypClicks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initBase</span>
+                <span class="method-start">464741 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchURLTestypClicks</span>
+                <span class="method-start">464741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ypClicksOverviewTest</span>
+                <span class="method-start">498047 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">report.test.TestSendMail</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">sendMail</span>
+                <span class="method-start">505322 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Call Cloud" parallel="false">
+
+<test name="Call Cloud">
+    <classes>
+        <class name="report.test.Test_ypLocalAds" ></class>  
+    </classes>
+    
+</test>
+
+
+</suite>
+

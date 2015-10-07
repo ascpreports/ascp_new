@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Call Cloud]">
+  <listeners>
+    <listener class-name="Util.CustomListener"/>
+  </listeners>
+  <test name="Call Cloud(failed)">
+    <classes>
+      <class name="report.test.Test_ypLocalAds">
+        <methods>
+          <include name="ypLocalAdsCallsTest"/>
+          <include name="ypLocalAdsOverviewTest"/>
+          <include name="launchURLTest"/>
+          <include name="initBase"/>
+        </methods>
+      </class> <!-- report.test.Test_ypLocalAds -->
+    </classes>
+  </test> <!-- Call Cloud(failed) -->
+</suite> <!-- Failed suite [Test Call Cloud] -->
